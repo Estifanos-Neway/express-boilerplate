@@ -1,15 +1,24 @@
 {
   "name": "express-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Personal boilerplate for ExpressJS apps.",
+  "main": "src/index.js",
   "scripts": {
-    "i": "npm i express nodemon dotenv lodash morgan cors helmet cli-color express-rate-limit",
+    "i": "npm i express dotenv lodash morgan cors helmet cli-color express-rate-limit",
+    "i-dev":"npm i -D nodemon",
     "start": "node src/index",
     "dev": "nodemon  src/index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estifanos-Neway/express-boilerplate.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "https://github.com/Estifanos-Neway",
+  "bugs": {
+    "url": "https://github.com/Estifanos-Neway/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Estifanos-Neway/express-boilerplate#readme",
   "license": "ISC",
   "dependencies": {
     "cli-color": "^2.0.3",
