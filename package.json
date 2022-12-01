@@ -1,0 +1,30 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "i": "npm i express nodemon dotenv lodash morgan cors helmet cli-color express-rate-limit",
+    "start": "node src/index",
+    "dev": "nodemon  src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "express-rate-limit": "^6.7.0",
+    "graphql": "^15.8.0",
+    "helmet": "^6.0.1",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
