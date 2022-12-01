@@ -1,3 +1,3 @@
 # Express-Boilerplate
 
-Personal boilerplate for ExpressJS apps
+A personal boilerplate for ExpressJS apps
